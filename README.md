@@ -67,11 +67,11 @@ Crie uma API que execute as seguintes funções:
 
 Nós sempre avaliamos o seu código, e para isso nós envolvemos sempre no mínimo 3 engenheiros aqui do Viva e amigavelmente informamos que iremos nos basear pelos seguintes critérios:
 
-* *Manutenibilidade:* É um código legível, de fácil manutenção.
-* *Desenho:* Como você separou as reponsabilidades. Quais técnicas utilizou.
-* *Qualidade:* Tem testes? Quão difícil é recriar os testes caso seja necessário alterar o comportamento da aplicação?
-* *Desempenho:* Utilizou algoritmos ou ferramentas que entregam uma performance adequada? 
-* *(Extra) Integração:* Quão pronto está o código? Integrou com o html? Disponibilizou uma versão deployada?
+* **Manutenibilidade:** É um código legível, de fácil manutenção.
+* **Desenho:** Como você separou as reponsabilidades. Quais técnicas utilizou.
+* **Qualidade:** Tem testes? Quão difícil é recriar os testes caso seja necessário alterar o comportamento da aplicação?
+* **Desempenho:** Utilizou algoritmos ou ferramentas que entregam uma performance adequada? 
+* **(Extra) Integração:** Quão pronto está o código? Integrou com o html? Disponibilizou uma versão deployada?
 
 
 

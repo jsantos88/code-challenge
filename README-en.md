@@ -1,6 +1,6 @@
 # VivaReal Code Challenge :)
 
-If you prefer, you can read our [english version](README-en.md).
+If you prefer, you can read our [english version]().
 
 ## Propósito deste desafio
 

@@ -12,9 +12,9 @@ Este desafio tem o intuito de entender a forma como você pensa para resolver os
 
 ## Sobre o desafio
 
-Dependendo da sua experiência e/ou das ferramentas escolhidas, você pode precisar de mais ou menos tempo para realizar o desafio. Em geral 2 horas são suficientes.
+Dependendo da sua experiência e/ou das ferramentas escolhidas, você pode precisar de mais ou menos tempo para realizar o desafio.
 
-Para isso, vamos fornecer para você alguns dados. Neste [json](properties.json) você encontra uma série de imóveis listados com a seguinte estrutura:
+Para isso, vamos fornecer para você alguns dados. Neste [json](properties.json) você encontra milhares de imóveis listados com a seguinte estrutura:
 
 ```javascript
 {
@@ -79,7 +79,7 @@ Response:
 }
 ```
 
-### 1. Crie imóveis em Spotippos :D
+### 1. Crie imóveis em Spotippos :)
 
 A partir da estrutura abaixo em `Request` e `Body` permita a criação de um imóvel. Todos os campos são obrigatórios e devem respeitar as regras enunciadas neste desafio e nos limites geográficos de Spottipos.
 
@@ -126,7 +126,7 @@ Response:
 }
 ```
 
-### 3. Busque os imóveis em Spotippos :)
+### 3. Busque os imóveis em Spotippos :D
 
 A partir de um retangulo representado pelos pontos A e B, onde A é o ponto superior esquerdo e B é o ponto inferior direito.
 
@@ -159,7 +159,7 @@ Response:
 
 ### 4. Wow! Agora temos que fazer deploy! :D
 
-Crie uma documentação de como rodar o seu projeto! Quanto mais simples, melhor! ;)
+Crie uma documentação de como rodar o seu projeto! Quanto mais simples, melhor! =D
 
 ## Modo de avaliação
 
@@ -170,6 +170,6 @@ Nós sempre avaliamos o seu código, e para isso nós envolvemos sempre no míni
 * **Qualidade:** Tem testes? Quão difícil é recriar os testes caso seja necessário alterar o comportamento da aplicação?
 * **Desempenho:** Escreveu um código com performance adequada? Não precisa ser perfeito, mas entende como seria a solução perfeita?
 
-Fique a vontade para incrementar e deixar a sua API de Spottipos ainda melhor !
+Fique a vontade para incrementar e deixar a sua API de Spottipos ainda melhor!
 
-Boa sorte, agora vá programar ;)
+Bom código! ;)

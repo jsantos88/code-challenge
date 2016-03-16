@@ -20,10 +20,12 @@ Além de ser complicado encontrar a casa ideal, alguns proprietários anunciam s
 
 Agora, neste novo momento de Spotippos, o maior desafio dos bytes - ah, esqueci de mencionar que lá não vivem pessoas, a raça predominante lá são os bytes - é encontrar a casa dos seus sonhos.
 
-O seu desafio é montar a unidade VivaReal em Spotippos!
+O seu desafio é nos ajudar a montar a unidade VivaReal em Spotippos!
 
 Veja abaixo o mapa de Spotippos e suas provincias: Gode, Ruja, Jaby, Scavy, Groola e Nova.
 
 ![Spotippos Map](public/images/spotippos-map.png)
 
 Note que no mapa Gode e Ruja possuem uma sobreposição, portanto alguns Bytes chamam aquele pedaço de Ruja e outros de Gode, são resquícios da batalha entre Zillia e Trullow. =]
+
+A área de cada província é representada por um retângulo que pode ser inferido por dois pontos: ponto superior esquerdo e ponto inferior direito, cada um com duas coordenadas x e y. As coordenadas dos pontos sempre são apresentadas por valores positivos onde `0 <= x <= 1400` e `0 <= y <= 1000`. Neste [json](provinces.json) você pode ter as informações da área representada por cada província. Lembrando que ainda é possível que haja sobreposições das áreas entre províncias (resquícios da grande batalha).

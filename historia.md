@@ -18,13 +18,10 @@ O reinado se construiu novamente com outra estrutura e até hoje ambos são lemb
 
 Agora, neste novo momento de Spotippos, o maior desafio dos bytes - ah, esqueci de mencionar que lá não vivem pessoas, a raça predominante lá são os bytes - é encontrar a casa dos seus sonhos. Além de ser complicado encontrar a casa ideal, alguns proprietários anunciam seus imóveis em Z$ e outros em T$, criando ainda mais dificuldade para encontrar a tão idealizada casa dos sonhos.
 
-O seu desafio é montar a unidade VivaReal em Spotippos! Para isso, iremos disponibilizar este feed com 4 mil imóveis.
+O seu desafio é montar a unidade VivaReal em Spotippos! Para isso, iremos disponibilizar um feed com alguns milhares de imóveis.
 
-Você deve construir então uma API que seja capaz de encontrar imóveis nas provincias Gode, Ruja, Jaby, Scavy, Groola e Nova.
+Você deve construir então uma API que seja capaz de encontrar imóveis nas províncias Gode, Ruja, Jaby, Scavy, Groola e Nova.
 
 ![Spotippos](public/images/spotippos.png)
 
-De acordo com imóveis de Spotippos fornecidos no feed [properties.json](properties.json), crie uma API com os seguintes métodos:
-
-1. Dado 2 pontos (x,y) de coordenadas em Spotippos, devolva todos os imóveis pertencentes aquele retangulo.
-2. Crie uma método que devolva todos os imóveis de uma provincia. Note que no mapa Gode e Ruja possuem uma sobreposição.
+A área de cada província é representada por um retângulo que pode ser inferido por dois pontos: ponto superior esquerdo e ponto inferior direito, cada um com duas coordenadas x e y. As coordenadas dos pontos sempre são apresentadas por valores positivos onde `0 <= x <= 1400` e `0 <= y <= 1000`. Neste [json](provinces.json) você pode ter as informações da área representada por cada província. Lembrando que ainda é possível que haja sobreposições das áreas entre províncias (resquícios da grande batalha). 

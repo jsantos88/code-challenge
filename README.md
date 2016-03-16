@@ -26,6 +26,7 @@ Para isso, vamos fornecer para você alguns dados. Neste [json](database.json) v
       "y": 867, // y (spotippos geographic coordinate)
       "beds": 5, // number of beds
       "baths": 4, // number of baths
+      "provinces" : ["Scavy"], // spotippos provinces
       "squareMeters": 134
     }
   ]
@@ -36,8 +37,7 @@ Para isso, vamos fornecer para você alguns dados. Neste [json](database.json) v
 
 Em Spottipos temos as seguintes regras:
 
-1. A área total de Spottipos é definda da seginte forma `0 <= x <= 1400` e `0 <= y <= 1000`.
-2. Um imóvel em Spottipos tem as seguintes características:
+Um imóvel em Spottipos tem as seguintes características:
   - No máximo 5 quartos (beds), e no mínimo 1
   - No máximo 4 banheiros (baths), e no mínimo 1
   - No máximo 240 metros quadrados, e no mínimo 20
@@ -47,9 +47,7 @@ Usando as informações anteriores, crie uma API REST que execute as seguintes f
 
 ### 1. Busque os imóveis em Spottipos :P
 
-A partir de um retangulo representado pelos pontos A e B, onde A é o ponto superior esquerdo e B é o ponto inferior direito.
-
-Cada ponto é representado pelas cordenadas `x` e `y`. O ponto A é representado por `ax` e `ay` e B por `bx` e `by`, sendo assim a estrutura da url deve ser a seguinte:
+Do mesmo modo que as áreas das províncias de Spotippos são delimitadas, queremos saber os imóveis de uma certa região dado os pontos A e B, onde A é o ponto superior esquerdo e B é o ponto inferior direito. Cada ponto é representado pelas cordenadas x e y. Sendo assim, a estrutura da url a ser seguida deve ser: 
 
 Request:
 ```
@@ -68,6 +66,7 @@ Response:
       "y": 333,
       "beds": 4,
       "baths": 3,
+      "provinces" : [ "Gode", "Ruja"],
       "squareMeters": 237
     },
     {...},
@@ -78,7 +77,7 @@ Response:
 
 ### 2. Crie imóveis em Spottipos :D
 
-A partir das regras abaixo em `Request` e `Body` permita a criação de um imóvel. Todos os campos são obrigatórios, `x` e `y` devem respeitar a área de spottipos onde `x` vai de 0 até 1400 e `y` de 0 até 1000.
+A partir da estrutura abaixo em `Request` e `Body` permita a criação de um imóvel. Todos os campos são obrigatórios e devem respeitar as regras enunciadas neste desafio e nos limites geográficos de Spottipos.
 
 Request:
 ```
@@ -118,6 +117,7 @@ Response:
   "y": 556,
   "beds": 1,
   "baths": 1,
+  "provinces" : ["Ruja"],
   "squareMeters": 42
 }
 ```
@@ -135,3 +135,7 @@ Nós sempre avaliamos o seu código, e para isso nós envolvemos sempre no míni
 * **Desenho:** Como você separou as reponsabilidades. Quais técnicas utilizou.
 * **Qualidade:** Tem testes? Quão difícil é recriar os testes caso seja necessário alterar o comportamento da aplicação?
 * **Desempenho:** Escreveu um código com performance adequada? Não precisa ser perfeito, mas entende como seria a solução perfeita?
+
+Fique a vontade para incrementar e deixar a sua API de Spottipos ainda melhor !
+
+Boa sorte, agora vá programar ;)

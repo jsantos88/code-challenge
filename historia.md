@@ -14,17 +14,16 @@ Como a História é sempre cheia de surpresas, a batalha entre Zillia e Trullow 
 
 O reinado se construiu novamente com outra estrutura e até hoje ambos são lembrados como ídolos em Spotippos. As batalhas de sparzsek foram banidas para sempre, trazendo paz e harmonia para o povo e para o reinado.
 
-<!-- Um legado interessante deste período é que as duas moedas vigentes na época permanecem como moedas oficiais até hoje em Spotippos. Você pode usar tanto Zillis Z$ como Trullis T$ para efetuar seus pagamentos. O interessante é que a taxa de câmbio entre Z$ e T$ é calculada todos os dias a meia noite em ponto. A taxa de hoje é para cada 1 Z$ = 2 T$. -->
+<!-- Um legado interessante deste período é que as duas moedas vigentes na época permanecem como moedas oficiais até hoje em Spotippos. Você pode usar tanto Zillis Z$ como Trullis T$ para efetuar seus pagamentos. O interessante é que a taxa de câmbio entre Z$ e T$ é calculada todos os dias a meia noite em ponto. A taxa de hoje é para cada 1 Z$ = 2 T$.
 
-Agora, neste novo momento de Spotippos, o maior desafio dos bytes - ah, esqueci de mencionar que lá não vivem pessoas, a raça predominante lá são os bytes - é encontrar a casa dos seus sonhos. Além de ser complicado encontrar a casa ideal, alguns proprietários anunciam seus imóveis em Z$ e outros em T$, criando ainda mais dificuldade para encontrar a tão idealizada casa dos sonhos.
+Além de ser complicado encontrar a casa ideal, alguns proprietários anunciam seus imóveis em Z$ e outros em T$, criando ainda mais dificuldade para encontrar a tão idealizada casa dos sonhos.-->
 
-O seu desafio é montar a unidade VivaReal em Spotippos! Para isso, iremos disponibilizar este feed com 4 mil imóveis.
+Agora, neste novo momento de Spotippos, o maior desafio dos bytes - ah, esqueci de mencionar que lá não vivem pessoas, a raça predominante lá são os bytes - é encontrar a casa dos seus sonhos.
 
-Você deve construir então uma API que seja capaz de encontrar imóveis nas provincias Gode, Ruja, Jaby, Scavy, Groola e Nova.
+O seu desafio é montar a unidade VivaReal em Spotippos!
 
-![Spotippos](public/images/spotippos.png)
+Veja abaixo o mapa de Spotippos e suas provincias: Gode, Ruja, Jaby, Scavy, Groola e Nova.
 
-De acordo com imóveis de Spotippos fornecidos no feed [properties.json](properties.json), crie uma API com os seguintes métodos:
+![Spotippos Map](public/images/spotippos-map.png)
 
-1. Dado 2 pontos (x,y) de coordenadas em Spotippos, devolva todos os imóveis pertencentes aquele retangulo.
-2. Crie uma método que devolva todos os imóveis de uma provincia. Note que no mapa Gode e Ruja possuem uma sobreposição.
+Note que no mapa Gode e Ruja possuem uma sobreposição, portanto alguns Bytes chamam aquele pedaço de Ruja e outros de Gode, são resquícios da batalha entre Zillia e Trullow. =]

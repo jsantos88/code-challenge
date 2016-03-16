@@ -49,36 +49,6 @@ Em Spotippos temos as seguintes regras:
 
 Usando as informações anteriores, crie uma API REST que execute as funções abaixo. Você pode fazer tudo em memória, ou seja, não precisa utilizar nenhum banco de dados ou ferramenta. Se você preferir, se sentir mais confortável ou achar mais fácil, fique a vontade! ;)
 
-### 1. Busque os imóveis em Spottipos :P
-
-Do mesmo modo que as áreas das províncias de Spotippos são delimitadas, queremos saber os imóveis de uma certa região dado os pontos A e B, onde A é o ponto superior esquerdo e B é o ponto inferior direito. Cada ponto é representado pelas cordenadas x e y. Sendo assim, a estrutura da url a ser seguida deve ser:
-
-Request:
-```
-  GET /properties?ax={integer}&ay={integer}&bx={integer}&by={integer}
-```
-
-Response:
-
-```json
-{
-  "foundProperties": 3,
-  "properties": [
-    {
-      "id": 34,
-      "x": 999,
-      "y": 333,
-      "beds": 4,
-      "baths": 3,
-      "provinces" : [ "Gode", "Ruja"],
-      "squareMeters": 237
-    },
-    {...},
-    {...}
-  ]
-}
-```
-
 ### 1. Crie imóveis em Spotippos :)
 
 A partir da estrutura abaixo em `Request` e `Body` permita a criação de um imóvel. Todos os campos são obrigatórios e devem respeitar as regras enunciadas neste desafio e nos limites geográficos de Spottipos.
@@ -126,7 +96,7 @@ Response:
 }
 ```
 
-### 3. Busque os imóveis em Spotippos :D
+### 3. Busque imóveis em Spotippos :D
 
 A partir de um retangulo representado pelos pontos A e B, onde A é o ponto superior esquerdo e B é o ponto inferior direito.
 

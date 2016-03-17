@@ -41,7 +41,7 @@ Esses imóveis são representados no mapa de Spotippos da seguinte forma:
 
 Em Spotippos temos as seguintes regras:
 
-1. A área total de Spotippos é definda da seginte forma `0 <= x <= 1400` e `0 <= y <= 1000`.
+1. A área total de Spotippos é definida da seguinte forma `0 <= x <= 1400` e `0 <= y <= 1000`.
 2. Um imóvel em Spotippos tem as seguintes características:
   - No máximo 5 quartos (beds), e no mínimo 1
   - No máximo 4 banheiros (baths), e no mínimo 1

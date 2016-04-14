@@ -12,14 +12,14 @@ Para auxiliá-lo, forneceremos alguns insumos importantes:
 
 2 - [API](properties.json) para integração:
 
-Lista com todos os imóveis:
+Ler um imóvel por ID:
 ```
-GET /properties
+GET http://spotippos.vivareal.com/properties/1
 ```
 
-Buscar imóveis com características específicas:
+Buscar imóveis entre 2 coordenadas:
 ```
-GET /properties?id={integer}&squareMeters={integer}&beds={integer}&baths={integer}&minVal={float}&maxVal={float}
+GET http://spotippos.vivareal.com/properties?ax=1&ay=1&bx=20&by=20
 ```
 
 ## Desafio

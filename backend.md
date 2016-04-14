@@ -2,6 +2,7 @@
 
 ## Sobre o desafio
 
+
 Dependendo da sua experiência e/ou das ferramentas escolhidas, você pode precisar de mais ou de menos tempo para realizar o desafio.
 
 Para isso, vamos fornecer para você alguns dados. Neste [json](properties.json) você encontra milhares de imóveis listados com a seguinte estrutura:
@@ -12,8 +13,11 @@ Para isso, vamos fornecer para você alguns dados. Neste [json](properties.json)
   "properties": [ // array of properties
     {
       "id": 1, // id :P
-      "x": 870, // x (Spotippos geographic coordinate)
-      "y": 867, // y (Spotippos geographic coordinate)
+      "title": "Imóvel código 1, com 5 quartos e 4 banheiros", // property title
+      "price": 1250000, // price
+      "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit.", // description
+      "lat": 870, // lat (Spotippos geographic coordinate)
+      "long": 867, // long (Spotippos geographic coordinate)
       "beds": 5, // number of beds
       "baths": 4, // number of baths
       "provinces" : ["Scavy"], // spotippos provinces
@@ -51,8 +55,11 @@ POST /properties
 Body:
 ```json
 {
-  "x": 222,
-  "y": 444,
+  "lat": 222,
+  "long": 444,
+  "title": "Imóvel código 1, com 5 quartos e 4 banheiros",
+  "price": 1250000,
+  "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit.",
   "beds": 4,
   "baths": 3,
   "squareMeters": 210
@@ -77,8 +84,11 @@ Response:
 ```json
 {
   "id": 665,
-  "x": 667,
-  "y": 556,
+  "title": "Imóvel código 665, com 1 quarto e 1 banheiro",
+  "price": 540000,
+  "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit.",
+  "lat": 667,
+  "long": 556,
   "beds": 1,
   "baths": 1,
   "provinces" : ["Ruja"],
@@ -105,8 +115,11 @@ Response:
   "properties": [
     {
       "id": 34,
-      "x": 999,
-      "y": 333,
+      "title": "Imóvel código 34, com 4 quartos e 3 banheiros",
+      "price": 1250000,
+      "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit.",
+      "lat": 999,
+      "long": 333,
       "beds": 4,
       "baths": 3,
       "squareMeters": 237,

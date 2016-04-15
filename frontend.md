@@ -6,7 +6,7 @@ Dependendo da sua experiência e/ou das ferramentas escolhidas, você pode preci
 
 Para auxiliá-lo, forneceremos alguns insumos importantes:
 
-1 -  Layouts do site Spotippos:
+1 -  Layouts do site Spotippos no zeplin (https://zpl.io/ZR0l4P - crie uma conta no zeplin, nos envie o username):
 
 ![Página de Resultados](public/images/spotippos-result-page.png)
 

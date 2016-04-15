@@ -27,6 +27,6 @@ Nós sempre avaliaremos o seu código, e para isso nós envolvemos sempre no mí
 * **Qualidade:** Tem testes? Quão difícil é recriar os testes caso seja necessário alterar o comportamento da aplicação?
 * **Desempenho:** Escreveu um código com performance adequada? Não precisa ser perfeito, mas entende como seria a melhor solução?
 
-Fique a vontade para incrementar seu desafio que modo a demonstrar como o resultado do seu esforço pode deixá-lo ainda melhor!
+Fique a vontade para incrementar seu desafio de modo a demonstrar como o resultado do seu esforço pode deixá-lo ainda melhor!
 
 Bom código! ;)

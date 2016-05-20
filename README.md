@@ -136,7 +136,7 @@ Crie uma documentação de como rodar o seu projeto! Quanto mais simples, melhor
 Nós sempre avaliamos o seu código, e para isso nós envolvemos sempre no mínimo 3 engenheiros aqui do Viva e amigavelmente informamos que iremos nos basear pelos seguintes critérios:
 
 * **Manutenibilidade:** É um código legível, de fácil manutenção.
-* **Desenho:** Como você separou as reponsabilidades. Quais técnicas utilizou.
+* **Desenho:** Como você separou as responsabilidades. Quais técnicas utilizou.
 * **Qualidade:** Tem testes? Quão difícil é recriar os testes caso seja necessário alterar o comportamento da aplicação?
 * **Desempenho:** Escreveu um código com performance adequada? Não precisa ser perfeito, mas entende como seria a solução perfeita?
 

@@ -4,7 +4,7 @@
 
 Dependendo da sua experiência e/ou das ferramentas escolhidas, você pode precisar de mais ou menos tempo para realizar o desafio.
 
-Para auxiliá-lo, forneceremos alguns insumos importantes:
+Para auxiliá-lo, forneceremos alguns dados importantes:
 
 1 -  Layouts do site Spotippos no zeplin (https://zpl.io/ZR0l4P - crie uma conta no zeplin, nos envie o username):
 
@@ -24,7 +24,7 @@ GET http://spotippos.vivareal.com/properties?ax=1&ay=1&bx=20&by=20
 
 ## Desafio
 
-Sua missão é criar uma página de resultados como todos os anúncios de imóveis de Spotippos. Mais vamos lá, a sua página não pode ser apenas estática, ela precisa de alguma inteligência para que todos os imóveis sejam exibidos dinamicamente. Ela ficará ainda mais legal, se os filtros funcionarem, pois eles ajudarão as pessoas a encontrarem o imóvel dos seus sonhos em Spotippos.
+Sua missão é criar uma página de resultados como todos os anúncios de imóveis de Spotippos. Vamos lá, a sua página não pode ser apenas estática, ela precisa de alguma inteligência para que todos os imóveis sejam exibidos dinamicamente. Ela ficará ainda mais legal, se os filtros funcionarem, pois eles ajudarão as pessoas a encontrarem o imóvel dos seus sonhos em Spotippos.
 
 ### 1. Desenvolver a página de resultados
 
@@ -39,9 +39,8 @@ Crie um template estático, baseado no layout fornecido, atendendo aos seguintes
 
 Integre seu template a nossa API, obedecendo aos seguintes critérios:
 
-  - a integração deve ser feita tendo como base a linguagem Javascript
-  - utilize algum framework MV* de mercado
-  - **ou** utilize Vanilla JS para integração (se utilizar algum template engine será considerado um plus)
+  - a integração deve ser feita tendo como base Javascript
+  - para facilitar utilize algum framework MV* de mercado **ou** utilize Vanilla JS para integração (se utilizar algum template engine será considerado um plus)
 
 ### 3. Ajude seus usuários a refinar os resultados
 

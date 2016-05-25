@@ -16,8 +16,8 @@ Para isso, vamos fornecer para você alguns dados. Neste [json](properties.json)
       "title": "Imóvel código 1, com 5 quartos e 4 banheiros", // property title
       "price": 1250000, // price
       "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit.", // description
-      "lat": 870, // lat (Spotippos geographic coordinate)
-      "long": 867, // long (Spotippos geographic coordinate)
+      "x": 870, // lat (Spotippos geographic coordinate)
+      "y": 867, // long (Spotippos geographic coordinate)
       "beds": 5, // number of beds
       "baths": 4, // number of baths
       "provinces" : ["Scavy"], // spotippos provinces
@@ -55,8 +55,8 @@ POST /properties
 Body:
 ```json
 {
-  "lat": 222,
-  "long": 444,
+  "x": 222,
+  "y": 444,
   "title": "Imóvel código 1, com 5 quartos e 4 banheiros",
   "price": 1250000,
   "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit.",
@@ -87,8 +87,8 @@ Response:
   "title": "Imóvel código 665, com 1 quarto e 1 banheiro",
   "price": 540000,
   "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit.",
-  "lat": 667,
-  "long": 556,
+  "x": 667,
+  "y": 556,
   "beds": 1,
   "baths": 1,
   "provinces" : ["Ruja"],
@@ -118,8 +118,8 @@ Response:
       "title": "Imóvel código 34, com 4 quartos e 3 banheiros",
       "price": 1250000,
       "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit.",
-      "lat": 999,
-      "long": 333,
+      "x": 999,
+      "y": 333,
       "beds": 4,
       "baths": 3,
       "squareMeters": 237,
@@ -134,3 +134,16 @@ Response:
 ### 4. Wow! Agora temos que fazer deploy! :D
 
 Crie uma documentação de como rodar o seu projeto! Quanto mais simples, melhor! =D
+
+## Modo de avaliação
+
+Nós sempre avaliamos o seu código, e para isso nós envolvemos sempre no mínimo 3 engenheiros aqui do Viva e amigavelmente informamos que iremos nos basear pelos seguintes critérios:
+
+* **Manutenibilidade:** O código é legível e de fácil manutenção?
+* **Desenho:** Como foram separadas as responsabilidades? Quais técnicas foram utilizadas?
+* **Qualidade:** Tem testes? Quão difícil é recriar os testes caso seja necessário alterar o comportamento da aplicação?
+* **Desempenho:** Escreveu um código com performance adequada? Não precisa ser perfeito, mas entende como seria a melhor solução?
+
+Fique a vontade para incrementar seu desafio de modo a demonstrar como o resultado do seu esforço pode deixá-lo ainda melhor!
+
+Bom código! ;)

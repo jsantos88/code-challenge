@@ -4,38 +4,23 @@
 
 ## Pré-requisito
 
-Conheça a [lenda de Spotippos](historia.md)
+Conheça a [lenda de Spotippos](history.md)
 
-## Propósito deste desafio
+## Propósito dos nossos desafios
 
-Este desafio tem o intuito de entender a forma como você pensa para resolver os problemas, como você organiza seu código e quais tecnologias você se sente mais confortável.
+De acordo com seus skills, queremos entender a forma como você pensa para resolver problemas, como você organiza seu código e quais tecnologias você se sente mais confortável para utilizar no dia-a-dia.
 
-## Sobre o desafio
+## Escolha seu desafio
 
-Dependendo da sua experiência e/ou das ferramentas escolhidas, você pode precisar de mais ou menos tempo para realizar o desafio.
+Mantemos desafios com foco específico em cada área de conhecimento, escolha abaixo o que estiver mais aderente com as suas características e anseios profissionais:
 
-Para isso, vamos fornecer para você alguns dados. Neste [json](properties.json) você encontra milhares de imóveis listados com a seguinte estrutura:
+[Desafio back-end](backend.md)
 
-```javascript
-{
-  "totalProperties": 1, // total number of properties on this json
-  "properties": [ // array of properties
-    {
-      "id": 1, // id :P
-      "x": 870, // x (Spotippos geographic coordinate)
-      "y": 867, // y (Spotippos geographic coordinate)
-      "beds": 5, // number of beds
-      "baths": 4, // number of baths
-      "provinces" : ["Scavy"], // spotippos provinces
-      "squareMeters": 134
-    }
-  ]
-}
-```
+[Desafio front-end](frontend.md)
 
-Esses imóveis são representados no mapa de Spotippos da seguinte forma:
+## Como você será avaliado
 
-![Imóveis de Spotippos](public/images/spotippos.png)
+Nós sempre avaliaremos o seu código, e para isso nós envolvemos sempre no mínimo 3 engenheiros aqui do Viva e antecipadamente lhe informamos quais os principais critérios que vão balizar nossa avaliação:
 
 ## Desafio
 
@@ -135,11 +120,11 @@ Crie uma documentação de como rodar o seu projeto! Quanto mais simples, melhor
 
 Nós sempre avaliamos o seu código, e para isso nós envolvemos sempre no mínimo 3 engenheiros aqui do Viva e amigavelmente informamos que iremos nos basear pelos seguintes critérios:
 
-* **Manutenibilidade:** É um código legível, de fácil manutenção.
-* **Desenho:** Como você separou as responsabilidades. Quais técnicas utilizou.
+* **Manutenibilidade:** O código é legível e de fácil manutenção?
+* **Desenho:** Como foram separadas as responsabilidades? Quais técnicas foram utilizadas?
 * **Qualidade:** Tem testes? Quão difícil é recriar os testes caso seja necessário alterar o comportamento da aplicação?
-* **Desempenho:** Escreveu um código com performance adequada? Não precisa ser perfeito, mas entende como seria a solução perfeita?
+* **Desempenho:** Escreveu um código com performance adequada? Não precisa ser perfeito, mas entende como seria a melhor solução?
 
-Fique a vontade para incrementar e deixar a sua API de Spottipos ainda melhor!
+Fique a vontade para incrementar seu desafio de modo a demonstrar como o resultado do seu esforço pode deixá-lo ainda melhor!
 
 Bom código! ;)

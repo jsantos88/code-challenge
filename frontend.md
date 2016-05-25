@@ -4,14 +4,16 @@
 
 Dependendo da sua experiência e/ou das ferramentas escolhidas, você pode precisar de mais ou menos tempo para realizar o desafio.
 
+
+## Dados
 Para auxiliá-lo, forneceremos alguns dados importantes:
 
-###1 - Layout do site
+###Layout do site
 Layout do site Spotippos no zeplin (https://zpl.io/ZR0l4P - crie uma conta no zeplin, nos envie o username):
 
 ![Página de Resultados](public/images/spotippos-result-page.png)
 
-###2 - API para integração
+###API para integração
 
 Nossa API terá dados no seguinte formato [deste](properties.json) json.
 

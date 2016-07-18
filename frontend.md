@@ -9,7 +9,9 @@ Dependendo da sua experiência e/ou das ferramentas escolhidas, você pode preci
 Para auxiliá-lo, forneceremos alguns dados importantes:
 
 ###Layout do site
-Layout do site Spotippos no zeplin (https://zpl.io/ZR0l4P - crie uma conta no zeplin, nos envie o username):
+Layout do site Spotippos no zeplin:
+  - Vá ao [zeplin.io](https://zeplin.io/)
+  - Logue com os dados - user: frontendtest senha: frontendtest
 
 ![Página de Resultados](public/images/spotippos-result-page.png)
 

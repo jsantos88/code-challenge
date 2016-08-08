@@ -1,19 +1,23 @@
-# VivaReal Code Challenge :)
+# Spotippos API
 
-<!-- If you prefer, you can read our [english version](README-en.md). -->
+## Dependências
+* java 8
+* maven
 
-## Pré-requisito
+## Executar aplicação
+No diretório raiz da aplicação, executar os seguintes comandos:
+```
+mvn clean package
+java -jar target/spotippo-service-1.0.0-RELEASE.jar
+```
 
-Conheça a [lenda de Spotippos](history.md)
+## Executar suíte de teste
+```
+mvn test
+```
 
-## Propósito dos nossos desafios
-
-De acordo com seus skills, queremos entender a forma como você pensa para resolver problemas, como você organiza seu código e quais tecnologias você se sente mais confortável para utilizar no dia-a-dia.
-
-## Escolha seu desafio
-
-Mantemos desafios com foco específico em cada área de conhecimento, escolha abaixo o que estiver mais aderente com as suas características e anseios profissionais:
-
-[Desafio back-end](backend.md)
-
-[Desafio front-end](frontend.md)
+## Observação
+Para carregar os imóveis que foram fornecidos no json do desafio, executar a aplicação com a seguinte linha de comando:
+```
+java -Dspotippos.carregarImoveis=true -jar target/spotippo-service-1.0.0-RELEASE.jar
+```
